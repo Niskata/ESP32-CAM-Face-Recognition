@@ -1,8 +1,8 @@
 /*************************************************************************************
 ## Web Template : 
-https://Muhamad-Khadafi.github.io/esp32cam-file-face-recognition/
+https://niskata.github.io/ESP32-CAM-Face-Recognition/
 ## Repo :
-https://github.com/Muhamad-Khadafi/esp32cam-file-face-recognition
+hhttps://github.com/Niskata/ESP32-CAM-Face-Recognition
 *************************************************************************************/
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -953,8 +953,8 @@ static const char PROGMEM INDEX_HTML[] = R"rawliteral(
         const distancelimit = document.getElementById('distancelimit')
         var res = "";
 
-        // Model: https://github.com/Muhamad-Khadafi/esp32cam-file-face-recognition
-        const faceImagesPath = 'https://muhamad-khadafi.github.io/esp32cam-file-face-recognition/facelist/';   // Path folder sampel foto dengan nama sesuai orang
+        // Model: hhttps://github.com/Niskata/ESP32-CAM-Face-Recognition
+        const faceImagesPath = 'https://niskata.github.io/ESP32-CAM-Face-Recognition/facelist/';   // Path folder sampel foto dengan nama sesuai orang
 
         // Daftar folder dengan nama sesuai orang
         const faceLabels = [
@@ -964,7 +964,7 @@ static const char PROGMEM INDEX_HTML[] = R"rawliteral(
 
         faceImagesCount = 2 ;   // Jumlah foto dalam setiap folder, bernama urutan 1.jpg, 2.jpg...
 
-        const modelPath = 'https://muhamad-khadafi.github.io/esp32cam-file-face-recognition/JS/';   // Path file model
+        const modelPath = 'https://niskata.github.io/ESP32-CAM-Face-Recognition/JS/';   // Path file model
         let displaySize = { width:320, height: 240 }
         let labeledFaceDescriptors;
         let faceMatcher; 
